@@ -430,8 +430,6 @@ footer .svg-inline--fa {
 	opacity: 0;
 	display: block;
 	z-index: -99;
-	-webkit-filter: blur(170px);
-	filter: blur(170px);
 }
 
 /*Body slides*/
@@ -466,7 +464,9 @@ footer .svg-inline--fa {
 	}
 	
 	[id$="M"] {
-		display: table;
+		display: block;
+		line-height: 4em;
+		padding: 0 10px;
 	}
 
 	.svg-inline--fa {
@@ -478,12 +478,12 @@ footer .svg-inline--fa {
 	}
 	
 	#menuM {
-		margin-left: 15%;
+		margin-left: 5%;
 	}
 	
 	#searchM {
 		justify-self: end;
-		margin-right: 15%;
+		margin-right: 5%;
 	}
 
 	.fa-search {
