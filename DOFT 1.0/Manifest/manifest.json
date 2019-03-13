@@ -1,0 +1,11 @@
+{
+	"name": "PWA-DOFT",
+	"short_name": "Doft",
+	"description": "Doft como aplicacion progresiva",
+	"background_color": "#E33C4F",
+	"theme_color": "#1a1a1a",
+	"orientation": "portrait",
+	"display": "standalone",
+	"scope": "./",
+	"lang": "es-ES"
+}
